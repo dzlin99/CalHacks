@@ -1,4 +1,4 @@
-package com.yourdomain.yourapp;
+package com.example.daniellin.myapplication;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -16,7 +16,7 @@ import com.spotify.protocol.types.Track;
 public class MainActivity extends AppCompatActivity {
 
     private static final String CLIENT_ID = "4b3f887cda57470692d36910af4bedac";
-    private static final String REDIRECT_URI = "com.yourdomain.yourapp://callback";
+    private static final String REDIRECT_URI = "com.example.daniellin.myapplication/spotify";
     private SpotifyAppRemote mSpotifyAppRemote;
 
     protected void onCreate(Bundle savedInstanceState) {
